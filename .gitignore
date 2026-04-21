@@ -1,0 +1,18 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local secrets and machine files
+.env
+.env.*
+.DS_Store
+
+# Private financial data and generated outputs
+data/
+exports/
+*.csv
+*.sqlite
+*.sqlite-*
+*.db

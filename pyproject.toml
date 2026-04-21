@@ -1,0 +1,9 @@
+[project]
+name = "money-manager"
+version = "0.1.0"
+description = "Local-first ING spending dashboard with SQLite and manual classification memory."
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+money-manager = "money_manager.cli:main"
